@@ -1,0 +1,100 @@
+/* ------------ SUBSCRIBE PAGE HEADER ----------- */
+
+.subscribe-button{
+    position: absolute;
+    right:3%;
+    height: 25px;
+    max-height: 25x;
+    border: 1px solid #eee;
+    border-radius: 20px; 
+    background: #555;
+    
+    padding-top: 8px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: #eee;
+    
+    cursor: -moz-pointer;
+    cursor: -webkit-pointer;
+    cursor:pointer;
+    
+    transition: 0.5s;
+}
+
+.subscribe-button:hover{
+    border: 1px solid #fff;
+    box-shadow: 5px 5px 25px rgba(0,0,0,0.07);
+    color: #000;
+    background: #fff;
+}
+
+
+
+
+/* ------------ SUBSCRIBE PAGE ----------- */
+
+.subscribe-wrap{
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    right: 5%;
+    height: 80%;
+}
+
+.sub-card{
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    background: #333;
+    border-radius: 5px;
+    
+    margin-right: 40px;
+    margin-bottom: 40px;
+    
+    transition: 0.3s ease;
+    
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    overflow: hidden;
+}
+
+.sub-card:hover{
+    background: #fff;
+    box-shadow: 5px 5px 45px rgba(0,0,0,0.1);
+}
+
+.sub-card-title{
+    font-weight: 600;
+    font-size:18px;
+    
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.sub-card .sub-card-desc{
+    padding-top: 18px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666;
+    
+    opacity: 0;
+    transition: 0.6s ease;
+}
+
+.sub-card:hover .sub-card-title{
+    color: #333;
+}
+
+.sub-card:hover .sub-card-desc{
+    opacity: 1;
+}
+

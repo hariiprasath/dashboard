@@ -1,0 +1,158 @@
+html, body{
+    background: #f6f6f6;
+    
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+
+
+
+/* ------------ LOGIN PAGE ATTRIBUTES ----------- */
+
+
+
+.login-wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container{
+    background: #fdfdfd;
+    width: 450px;
+/*    height: 70%;*/
+    min-height: 70%;
+    box-shadow: 2px 5px 25px rgba(0,0,0,0.07);
+    border-radius: 7px;
+    overflow: hidden;
+    position: absolute;
+}   
+
+.form-title{
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 20%;
+    margin-bottom: 15%;
+    width: 100%
+}
+
+
+.input input{
+    display: block;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    
+    width: 65%;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    border:0;
+    border-bottom: 2px solid #eaeaea;
+    
+    margin-top: 8%;
+    margin-left: 15%;
+    margin-right: 20%;
+    
+    transition-duration: 0.5s;
+}
+
+.input input::-webkit-input-placeholder{
+    color: #cacaca;
+    font-weight: 400;
+}
+
+.input input:focus{
+    outline: none;
+    border-bottom: 2px solid #333;
+    background: none;
+}
+
+.register{
+    margin-top: 10%;
+}
+
+.sign{
+    margin-top: 15%;
+}
+
+.recover{
+    margin-top: 10%;
+}
+
+.button{
+    background: #333;
+    color: #eee;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    
+    width: 68%;
+    height: 50px;
+    
+    border: 0;
+    border-radius: 4px;
+    
+    /*margin-top: 15%;*/
+/*    margin-bottom: 20%;*/
+    margin-left: 15%;
+    margin-right: 20%;  
+    
+    transition: 0.5s;
+}
+
+.button:hover{
+    background: #555;
+}
+
+.button:focus{
+    outline: none;
+}
+
+.signup-signin{
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+    
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
+}
+
+.signup-signin a{
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+}
+
+.solo-message{
+    font-weight: 400;
+    font-size: 15px;
+    width: 60%;
+    text-align: center;
+    position: absolute;
+    top:30%;
+}
+
+.forgot{
+    font-weight: 400;
+    font-size: 14px;
+    color: #555;
+
+    /*position: relative;*/
+    width: 100%;   
+    margin-top: 8%;
+}
+
+
+

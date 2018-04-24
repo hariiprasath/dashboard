@@ -1,0 +1,354 @@
+html, body{
+    background: #f6f6f6;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+
+
+
+/* ------------ HEADER ----------- */
+.new-post-button{
+    position: absolute;
+    left:15%;
+    height: 25px;
+    max-height: 25x;
+    border: 1px solid #eee;
+    border-radius: 20px; 
+    background: #555;
+    
+    padding-top: 8px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: #eee;
+    
+    cursor: -moz-pointer;
+    cursor: -webkit-pointer;
+    cursor:pointer;
+    
+    transition: 0.5s;
+}
+
+.new-post-button:hover{
+    border: 1px solid #fff;
+    box-shadow: 5px 5px 25px rgba(0,0,0,0.07);
+    color: #000;
+    background: #fff;
+}
+
+.cab-new-post{
+    left: 10%;
+}
+
+
+
+
+
+/* ------------ NEW POST MODAL ----------- */
+
+.modal-wrap{
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    background: rgba(255,255,255,0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    display:block;
+    position: fixed;
+    z-index: 10;
+    
+    background: #333;
+    box-shadow: 5px 5px 45px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    
+    width: 40%;
+    height: 60%;
+}
+
+.modal-content{
+    position: relative;
+    box-sizing: border-box;
+    padding: 10%;
+    height: 100%;
+}
+
+.modal-header{
+    font-weight: 800;
+    font-size: 28px;
+    color: #fff;
+}
+
+.modal-content img{
+    height: 25px;
+    position: absolute;
+    right: 10%;
+    top: calc(10% + 25px);
+    
+    cursor: -moz-pointer;
+    cursor: -webkit-pointer;
+    cursor:pointer;    
+}
+
+.first{
+    margin-top: 8%;
+    color: #fff;
+}
+
+.cab-first{
+    margin-top:10%;
+}
+
+.cab-button{
+    margin-top:4%;
+}
+
+.radio input{
+    margin-right: 2%;
+}
+
+.radio span{
+    color: #eee;
+    margin-right: 10%;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.input input{
+    display: block;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #eee;
+    
+    width: 80%;
+    height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    border:0;
+    border-bottom:1px solid #777;
+    background: #333;
+    
+    margin-top: 5%;
+/*    margin-left: 15%;*/
+/*    margin-right: 20%;*/
+    
+    transition-duration: 0.5s;
+}
+
+.input input::-webkit-input-placeholder{
+    color: #666;
+    font-weight: 400;
+}
+
+.input input:focus{
+    outline: none;
+    border-bottom: 2px solid #eee;
+    background: none;
+}
+
+.submit-button{
+    background: #555;
+    color: #eee;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    
+    width: 40%;
+    height: 50px;
+    margin-top: 8%;
+    
+    border: 0;
+    border-radius: 4px;
+    
+    transition: 0.5s ease;
+}
+
+.submit-button:hover{
+    background: #777;
+}
+
+.submit-button:focus{
+    outline: none;
+}
+
+
+
+
+/* ------------ TABLE GENERAL ----------- */
+
+.table-container{
+    position: absolute;
+    bottom: 0;
+/*    left: 5%;*/
+/*    right: 5%;*/
+    height: 81%;
+    width: 100%;
+}
+
+.table-container table{
+    width: 100%;
+    border: 0px;
+    border-collapse: collapse;
+}
+
+tr.heading{
+/*    position: fixed;*/
+/*    padding-right: 5%;*/
+}
+
+th{
+    background: #f6f6f6;
+    text-align: left;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #888;
+    
+    padding-bottom: 2.5em;
+    letter-spacing: 2px;
+}
+
+td{
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    border: none;
+    font-size: 15px;
+}
+
+tr.record:hover{
+    background: #fff;
+    box-shadow: 5px 5px 45px rgba(0,0,0,0.1);
+    transition: 0.8s ease-out;
+}
+
+
+
+
+/* ------------ LOST & FOUND SPECIFIC ----------- */
+
+.l-or-f{
+    width:15%;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 30px;
+}
+
+.lfwhat{
+    width:28%;
+    padding-right: 30px;
+}
+
+.lfwhere{
+    width: 12%;
+    padding-right: 30px;
+}
+
+.lfwhen{
+    width: 11%;
+    padding-right: 30px;
+}
+
+.lfimage{
+    width: 2%;
+    text-align: center;
+    padding-right: 5%;
+}
+
+.lfname{
+    width: 12%;
+    padding-right: 30px;
+}
+
+.lfcontact{
+    width: 10%;
+    padding-right: 5%;
+    text-align: right;
+}
+
+/*----IMAGE OPEN----*/
+
+.image-icon{
+    height: 25px;
+
+    cursor: -moz-pointer;
+    cursor: -webkit-pointer;
+    cursor:pointer;
+}
+
+.image-modal-wrap{
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    background: rgba(255,255,255,0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+.image-modal{
+    display:block;
+    position: fixed;
+    z-index: 10;
+    
+    background: #333;
+    box-shadow: 5px 5px 45px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    
+    width: 40%;
+    height: 60%;
+}
+
+
+
+
+
+
+
+/* ------------ CABPOOL SPECIFIC ----------- */
+
+.cabfrom{
+    width: 20%;
+    padding-left: 5%;
+    text-align: left;
+    padding-right: 30px;
+}
+
+.cabto{
+    width: 20%;
+    padding-right: 30px;
+}
+
+.cabwhen{
+    width: 12%;
+    padding-right: 30px;
+}
+
+.cabname{
+    width: 10%;
+    padding-right: 30px;
+}
+
+.cabcontact{
+    width: 8%;
+    text-align: right;
+    padding-right: 5%;
+}
+
