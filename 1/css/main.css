@@ -106,7 +106,7 @@ body::-webkit-scrollbar-thumb{
     border-radius: 5px;
     
     width: 50%;
-    height: 60%;
+/*     height: 60%; */
 }
 
 .modal-content{
@@ -224,15 +224,15 @@ input[type="file"]{
     
     width: 40%;
     height: 50px;
-    margin-top: 8%;
+/*     margin-top: 8%; */
     
     border: 0;
     border-radius: 4px;
     
     transition: 0.3s ease;
     
-    position: absolute;
-    bottom: 10%;
+/*     position: absolute; */
+/*     bottom: 10%; */
 }
 
 .submit-button:hover{
